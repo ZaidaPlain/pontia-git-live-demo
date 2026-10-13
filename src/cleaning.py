@@ -27,6 +27,7 @@ def clean(df: pd.DataFrame) -> pd.DataFrame:
     df = df.dropna(subset=["date", "units", "unit_price"])
     df = df[df["units"] > 0]
 
+    #Comentario de prueba, modificación de código
     df["units"] = df["units"].astype(int)
     df["amount"] = (df["units"] * df["unit_price"]).round(2)
     return df.reset_index(drop=True)
