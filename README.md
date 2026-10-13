@@ -1,6 +1,6 @@
 # Project Jupiter
 
-Example data analysis project.
+Example data analysis project modificación.
 
 ## Description
 
